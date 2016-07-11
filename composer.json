@@ -13,8 +13,8 @@
     ],
     "require": {
         "php": ">=5.4.16",
-        "cakephp/cakephp": "~3.0",
-        "cakephp/acl": "dev-master"
+        "cakephp/cakephp": "^3.0",
+        "cakephp/acl": "^0.2.1"
     },
     "require-dev": {
         "cakephp/cakephp-codesniffer": "dev-master"
@@ -24,6 +24,6 @@
             "JcPires\\AclManager\\": "src"
         }
     },
-    "minimum-stability" : "dev",
+    "minimum-stability" : "stable",
     "prefer-stable": true
 }
